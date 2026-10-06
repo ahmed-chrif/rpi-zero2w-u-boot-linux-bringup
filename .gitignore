@@ -1,0 +1,53 @@
+# Upstream source trees
+u-boot/
+linux-6.18.54/
+busybox-1.36.1/
+# Local deployment files
+files/
+files2/
+rpi-firmware/
+# Archives
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Disk images
+*.img
+*.wic
+*.wic.gz
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.elf
+*.map
+*.sym
+*.srec
+*.out
+
+# Linux build artifacts
+vmlinux
+vmlinux.*
+System.map
+Module.symvers
+modules.order
+modules.builtin
+modules.builtin.modinfo
+
+# U-Boot build artifacts
+u-boot.bin
+u-boot-nodtb.bin
+u-boot.cfg
+u-boot.cfg.configs
+u-boot.lds
+
+# Generated boot scripts
+boot.scr
+
+# Temporary files
+*.log
+*.swp
+*~
+busybox-rootfs/
